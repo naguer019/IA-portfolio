@@ -27,7 +27,8 @@ En géneros, destacan dramas, comedias y películas internacionales; se recomien
 [Notebook completo del análisis](../recursos_files/analysis%20parte%203%20netflix%20ing%20datos.ipynb)
 
 Evolución de títulos:  
-![Evolución Movies vs TV Shows](docs/assets/evolucion_decadas_tvshow_movie.png){ width="680" }
+![Evolución Movies vs TV Shows](../assets/evolucion_decadas_tvshow_movie.png){ width="680" }
+
 
 ## Reflexión
 Cruzar catálogo con métricas de consumo (horas vistas/usuarios), ratings externos y datos financieros permitiría estimar ROI por género/país y priorizar inversión.  
