@@ -9,5 +9,4 @@ Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas p�
 (`01-...`, `02-...`)
 
 - Plantilla: [plantilla.md](plantilla.md)
-- Primera entrada: [01-Análisis exploratorio del dataset Iris.md](01-Analisis_exploratorio_del_dataset_Iris.md)
 - Segunda entrada: [02-analisis-netflix.md](02-analisis-netflix.md)
