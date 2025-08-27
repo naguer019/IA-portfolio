@@ -1,5 +1,5 @@
 ---
-title: "03 — Analisis NYC Taxis (EDA multifuentes y Joins)"
+title: "03 — Análisis NYC Taxis (EDA multifuentes y Joins)"
 date: 2025-08-27
 ---
 
