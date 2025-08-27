@@ -32,13 +32,15 @@ La consigna completa se encuentra en: [EDA multifuentes y joins — UT1](https:/
 5. **Resultados**: se obtuvieron tablas consolidadas que permiten tener una visión más completa de los viajes, con datos combinados de distintas fuentes.  
 
 ## Evidencias
-- [Notebook completo](../recursos_files/Practica_4_nyc_taxis.ipynb)  
+- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/Practica_4_nyc_taxis.ipynb)
+
 
 ## Reflexión
 Esta práctica me permitió reforzar la importancia de trabajar con múltiples fuentes de datos y cómo los **joins** son fundamentales para enriquecer un análisis.  
 Lo más desafiante fue asegurar que las claves de unión coincidieran y manejar los datos faltantes.  
 Lo más valioso fue comprobar cómo la integración de datasets permite descubrir patrones y relaciones que no serían visibles analizando cada fuente por separado.  
 Un próximo paso sería profundizar en métricas descriptivas y aplicar visualizaciones en prácticas futuras para interpretar mejor la información integrada.
+Aunque no pudimos realizar la parte práctica del bonus, considero que fue interesante ya entrar en prefect y las herramientas que nos ofrece.
 
 ## Referencias
 - Consigna: [EDA multifuentes y joins — UT1](https://juanfkurucz.com/ucu-id/ut1/04-eda-multifuentes-joins/)  
