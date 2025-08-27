@@ -1,9 +1,9 @@
 ---
-title: "Entrada 01 — Análisis exploratorio del dataset Iris"
+title: "01—Análisis exploratorio del dataset Iris"
 date: 2025-08-21
 ---
 
-# Entrada 01 — Análisis exploratorio del dataset Iris
+# Análisis exploratorio del dataset Iris
 
 ## Contexto
 En la primera práctica del curso trabajé con el dataset clásico de **flores Iris**. El objetivo fue conocer el flujo de trabajo en un notebook, explorar las variables del dataset y generar las primeras visualizaciones con Python para identificar patrones iniciales.
@@ -37,7 +37,8 @@ En la primera práctica del curso trabajé con el dataset clásico de **flores I
    - **Pairplot** de seaborn mostrando cómo se distribuyen las tres especies en función de las variables morfológicas.
 
 ## Evidencias
-[Notebook completo](../recursos_files/1er_trabajo_ingeniera_datos_.ipynb) 
+- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/1er_trabajo_ingeniera_datos_.ipynb)
+
 
 ## Reflexión
 Este primer trabajo me permitió familiarizarme con el entorno de análisis y con la lógica de los notebooks.  
