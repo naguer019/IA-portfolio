@@ -24,7 +24,7 @@ En mercados, EE. UU. e India concentran gran parte del catálogo; conviene diver
 En géneros, destacan dramas, comedias y películas internacionales; se recomienda reforzar géneros transversales y explorar nichos (anime, documentales, realities).
 
 ## Evidencias
-[Notebook completo del análisis](../recursos_files/analysis%20parte%203%20netflix%20ing%20datos.ipynb)
+- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/analysis%20parte%203%20netflix%20ing%20datos.ipynb)
 
 Evolución de títulos:  
 ![Evolución Movies vs TV Shows](../assets/evolucion_decadas_tvshow_movie.png){ width="680" }
