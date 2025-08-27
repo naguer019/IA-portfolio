@@ -1,5 +1,5 @@
 ---
-title: "Análisis del catálogo de Netflix"
+title: "02-Análisis del catálogo de Netflix"
 date: 2025-08-21
 ---
 
