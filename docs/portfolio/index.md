@@ -5,9 +5,8 @@ date: 2025-01-01
 
 # Portafolio
 
-Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas páginas numeradas
-(`01-...`, `02-...`)
 
 - Plantilla: [plantilla.md](plantilla.md)
 - Primera entrada: [01-Analisis_exploratorio_del_dataset_iris.md](01-Analisis_exploratorio_del_dataset_iris.md)
 - Segunda entrada: [02-analisis-netflix.md](02-analisis-netflix.md)
+- Tercera entrada: [03-analisis-nyc-taxis-multifuentes-joins.md](03-analisis-multifuentes-y-joins.md)
