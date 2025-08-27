@@ -3,7 +3,7 @@ title: "03 — Analisis NYC Taxis (EDA multifuentes y Joins)"
 date: 2025-08-27
 ---
 
-# Entrada 03 — EDA multifuentes y Joins (NYC Taxis)
+# Analisis NYC Taxis (EDA multifuentes y Joins)
 
 ## Contexto
 En esta práctica trabajamos con datos de taxis de Nueva York y fuentes adicionales, con el objetivo de realizar un análisis exploratorio integrando múltiples datasets. La tarea principal fue practicar operaciones de **join** para combinar información complementaria y generar nuevos insights.
