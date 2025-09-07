@@ -1,10 +1,11 @@
 ---
 title: "Recursos útiles"
-date: 2025-01-01
+date: 2025-09-06
 ---
 
 # Recursos útiles
 
-- Guía del curso (enlace relativo si aplica)
 - Documentación de MkDocs Material: `https://squidfunk.github.io/mkdocs-material/`
-- Estándares de portafolio del curso (enlace relativo si aplica)
+- Documentación pandas: `https://pandas.pydata.org/docs/`
+- Documentación Seaborn: `https://seaborn.pydata.org/`
+- Documentación Matplotlib `https://matplotlib.org/stable/contents.html`
