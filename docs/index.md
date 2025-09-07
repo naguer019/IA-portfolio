@@ -5,13 +5,13 @@ date: 2025-01-01
 
 # Portafolio — Inicio
 
-Bienvenido a mi portafolio del curso de **Ingeniería en Inteligencia Artificial y Ciencia de Datos**.  
+Bienvenido a mi portafolio del curso de **Ingeniería de datos**.  
 Aquí iré documentando mi progreso, los trabajos prácticos y las reflexiones que vaya realizando durante el semestre.
 
 Este portafolio incluye:
 
 - Una presentación personal en la sección **Acerca de mí**.  
-- Entradas organizadas en la sección **Portfolio**, donde desarrollo cada entrega siguiendo la plantilla provista.  
+- Entradas organizadas en la sección **Portfolio**, donde desarrollo cada entrega.  
 - Evidencias de los análisis realizados en notebooks de Jupyter, enlazados a través de nbviewer.  
 - Recursos y materiales de apoyo en la sección **Recursos**.  
 
