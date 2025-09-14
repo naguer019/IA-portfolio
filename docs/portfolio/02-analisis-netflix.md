@@ -28,30 +28,28 @@ En géneros, destacan dramas, comedias y películas internacionales; se recomien
 
 ### Análisis de cada visualización
 Detección y visualización de datos faltantes:
-![Evolución Movies vs TV Shows](../assets/evolucion_decadas_tvshow_movie.png){ width="680" }
+![Detección y visualización de datos faltantes](../assets/datos_faltantes_ent2.png){ width="680" }
 
 Detección de outliers y anomalías:
-
+![Detección de outliers y anomalías](../assets/deteccion_outliers_anomalias_ent2.png){ width="680" }
 
 Analisis de tipos de contenido:
-
+![Analisis de tipos de contenido](../assets/analisis_tipos_contenido_ent2.png){ width="680" }
 
 Analisis de tendencias temporales:
-
+![Analisis de tendencias temporales](../assets/analisis_tendencias_temporales_ent2.png){ width="680" }
 
 Analisis de paises con mas visualizaciones:
-
+![Analisis de paises con mas visualizaciones](../assets/analisis_paises_ent2.png){ width="680" }
 
 Analísis de ratings y géneros:
-
+![Analísis de ratings y géneros](../assets/analisis_ratings_generos_ent2.png){ width="680" }
 
 Dashboard interactivo:
-
+![Dashboard interactivo](../assets/dashboard_interactivo_ent2.png){ width="680" }
 
 Análisis avanzado de géneros:
-
-Evolución de títulos:  
-![Evolución Movies vs TV Shows](../assets/evolucion_decadas_tvshow_movie.png){ width="680" }
+![Análisis avanzado de géneros](../assets/analisis_avanzado_generos_ent2.png){ width="680" }
 
 
 ## Reflexión
