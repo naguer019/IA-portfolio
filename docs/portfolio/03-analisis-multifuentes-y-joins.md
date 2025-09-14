@@ -296,30 +296,30 @@ Entonces la matriz confirma que las variables económicas (`fare_amount`, `total
 
 ### Preguntas (y respuestas) finales
 
-1. ¿Qué diferencia hay entre un LEFT JOIN y un INNER JOIN?
+1* ¿Qué diferencia hay entre un LEFT JOIN y un INNER JOIN?
 
 Usando el left join te quedas con los datos de la tabla, es la que se mantiene, mientras que de la derecha son los valores que se agregan. Usando inner join se hace interseccion de las dos tablas.
 
-2. ¿Por qué usamos LEFT JOIN en lugar de INNER JOIN para trips+zones?
+2* ¿Por qué usamos LEFT JOIN en lugar de INNER JOIN para trips+zones?
 
 Porque al hacer left te aseguras que vas a mantener toda la informacion de los viajes agregando las zonas correspondientes a los mismos. Si hicieramos inner vamos a perder la informacion de los trips que no tienen zona asignada.
 
-3. ¿Qué problemas pueden surgir al hacer joins con datos de fechas?
+3* ¿Qué problemas pueden surgir al hacer joins con datos de fechas?
 
 Diferencias en el tipo de dato, por ejemplo: string o datetime. • Formatos de fecha distintos, por ejemplo: YYYY-MM-DD o DD/MM/YYYY. • Valores nulos o fechas faltantes que pueden impedir el join.
 
-4. ¿Cuál es la ventaja de integrar múltiples fuentes de datos?
+4* ¿Cuál es la ventaja de integrar múltiples fuentes de datos?
 
 Nos permite realizar un análisis más completo y contextualizado. Además, se pueden cruzar variables de diferentes bases para descubrir patrones que no serían visibles en un solo dataset; esto enriquece la información y habilita conclusiones más profundos.
 
-5. ¿Qué insights de negocio obtuviste del análisis integrado?
+5* ¿Qué insights de negocio obtuviste del análisis integrado?
 
 Manhattan concentra la mayoría de los viajes, los viajes en Queens son más largos y costosos en promedio y el mejor revenue por km son de EWR. Hay diferencias claras en el revenue por kilómetro y en la tasa de propinas entre boroughs y los días especiales pueden tener impacto en la distancia y tarifa promedio.
 
 ### Preguntas (y respuestas) bonus
 (no pudimos hacer funcionar el código pero buscamos información para poder contestar a estas preguntas)
 
-1. ¿Qué ventaja tiene usar @task en lugar de una función normal?
+1* ¿Qué ventaja tiene usar @task en lugar de una función normal?
 
 Una función normal en Python se ejecuta sin ningún control extra.
 
@@ -334,7 +334,7 @@ Cuando usas @task:
 - Cada task queda orquestado y monitoreado: podés ver qué falló y reintentar sólo ese paso.
 
 
-2. ¿Para qué sirve el @flow decorator?
+2* ¿Para qué sirve el @flow decorator?
 
 Le dice a Prefect: “Esto no es sólo un script de Python, es un flujo de trabajo con dependencias y monitoreo”.
 
@@ -345,7 +345,7 @@ Permite:
 - Monitorear el flow run entero.
 
 
-3. ¿En qué casos reales usarías esto?
+3* ¿En qué casos reales usarías esto?
 
 Reportes diarios: Automatizar que cada mañana se bajen datos de ventas, se limpien y se envíen reportes a un dashboard.
 
