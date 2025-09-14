@@ -28,7 +28,7 @@ En géneros, destacan dramas, comedias y películas internacionales; se recomien
 
 ### Como se hicieron y que nos dicen las visualizaciones
 
-***Detección y visualización de datos faltantes***:
+#### ***Detección y visualización de datos faltantes***:
 
 **Cómo se hizo:**  
 Primero se calcularon los valores faltantes por columna usando `isnull()` y se expresaron en números absolutos y porcentajes. Con esa información se generaron dos visualizaciones:  
@@ -42,7 +42,7 @@ El gráfico de barras indica que la columna con más datos faltantes es **direct
 El heatmap confirma este patrón: se ven franjas amarillas en esas columnas específicas, mientras que las demás están completas. Esto sugiere que, si se decide limpiar o imputar, el mayor desafío estará en la columna `director`.
 
 
-***Detección de outliers y anomalías***:
+#### ***Detección de outliers y anomalías***:
 
 **Cómo se hizo:**  
 Se generaron varias visualizaciones para detectar posibles valores atípicos y anomalías en el dataset:  
@@ -59,7 +59,7 @@ El análisis de duplicados muestra que hay 57 títulos que aparecen más de una 
 Finalmente, el box plot de longitudes muestra que la mayoría de los títulos tienen entre 10 y 20 caracteres, aunque existen casos extremos: algunos muy largos, como *Jim & Andy: The Great Beyond...*, y otros muy cortos, como *PK* o *ATM*.  
 
 
-***Analisis de tipos de contenido***:
+#### ***Analisis de tipos de contenido***:
 
 **Cómo se hizo:**  
 Se calcularon las frecuencias de cada tipo de contenido (`Movie` y `TV Show`) con el método `value_counts()`.  
@@ -76,7 +76,7 @@ Los resultados indican que la mayoría del catálogo corresponde a **películas 
 Las distintas formas de graficar confirman la misma conclusión: Netflix tiene casi el doble de películas que de programas de TV.  
 
 
-***Analisis de tendencias temporales***:
+#### ***Analisis de tendencias temporales***:
 
 **Cómo se hizo:**  
 Se prepararon los datos de lanzamiento convirtiendo los años a valores numéricos y agrupando por frecuencia.  
@@ -95,7 +95,7 @@ El heatmap muestra que la década 2010–2020 fue, por lejos, la de mayor produc
 En 2020 se observa una caída brusca en la cantidad de estrenos, probablemente vinculada a la pandemia y sus efectos en la industria audiovisual.
 
 
-***Analisis de paises con mas visualizaciones***:
+#### ***Analisis de paises con mas visualizaciones***:
 
 **Cómo se hizo:**  
 Se limpió la columna de países, separando aquellos casos donde había varios países en una misma fila.  
@@ -114,7 +114,7 @@ La comparación por tipo de contenido revela que en casi todos los países predo
 El heatmap evidencia que Estados Unidos es el país con más **co-producciones internacionales**, especialmente con Reino Unido y Canadá, lo cual refleja su papel central en la industria global del entretenimiento.
 
 
-***Analísis de ratings y géneros***:
+#### ***Analísis de ratings y géneros***:
 
 **Cómo se hizo:**  
 Se contaron los valores más frecuentes en la columna `rating` y se seleccionaron los 10 principales.  
@@ -134,7 +134,7 @@ Los boxplots y violin plots confirman que la mayor parte de los contenidos clasi
 Finalmente, el heatmap evidencia que en la década de 2010 los ratings **TV-MA y TV-14** se consolidaron como los más utilizados, en contraste con décadas anteriores donde eran más frecuentes otras clasificaciones como PG o R.
 
 
-***Dashboard interactivo***:
+#### ***Dashboard interactivo***:
 
 **Cómo se hizo:**  
 Se calcularon métricas generales (total de títulos, % de películas/series y rango de años).  
@@ -157,7 +157,7 @@ El dashboard se guarda como **`netflix_dashboard.png`**.
 - **Décadas**: la **2010s** concentra la mayor producción para ambos tipos (películas por encima de series), confirmando el impulso más reciente del catálogo.
 
 
-***Análisis avanzado de géneros***:
+#### ***Análisis avanzado de géneros***:
 
 **Cómo se hizo:**  
 Se desglosó la columna `listed_in` para separar múltiples géneros de cada título y se contaron las frecuencias.  
