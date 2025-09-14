@@ -16,4 +16,4 @@ Este portafolio incluye:
 - Recursos y materiales de apoyo en la sección **Recursos**.  
 
 ## Objetivo del portafolio
-El propósito de este portafolio es mostrar el avance en las competencias de análisis de datos, exploración de múltiples fuentes, integración de información y comunicación de resultados, vinculados con la práctica profesional en inteligencia artificial y ciencia de datos.
+El propósito de este portafolio es mostrar mis avances en las competencias de análisis de datos, exploración de múltiples fuentes, integración de información y comunicación de resultados, vinculados con la práctica profesional en inteligencia artificial y ciencia de datos.
