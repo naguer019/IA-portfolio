@@ -17,13 +17,13 @@ Práctica de Ingeniería de Datos enfocada en **preprocesamiento numérico**: de
 
 ## Actividades (con tiempos estimados)
 - Preparación de entorno y dataset — **25 min**  
-- Exploración inicial (escalas, outliers, ratios) — **55 min**  
-- Experimentos con escalers clásicos (Standard/MinMax/Robust) — **45 min**  
-- Trabajo independiente con transformador avanzado (**PowerTransformer – Yeo-Johnson**) — **45 min**  
-- Demostración anti-leakage (método incorrecto, correcto y **Pipeline**) — **40 min**  
-- Validación con **cross-validation** y baseline — **35 min**  
-- Redacción de evidencias y conclusiones — **40 min**  
-- Subida y formateo para el portfolio — **40 min**
+- Exploración inicial (escalas, outliers, ratios) — **25 min**  
+- Experimentos con escalers clásicos (Standard/MinMax/Robust) — **30 min**  
+- Trabajo independiente con transformador avanzado (**PowerTransformer – Yeo-Johnson**) — **50 min**  
+- Demostración anti-leakage (método incorrecto, correcto y **Pipeline**) — **35 min**  
+- Validación con **cross-validation** y baseline — **30 min**  
+- Redacción de evidencias y conclusiones — **30 min**  
+- Subida y formateo para el portfolio — **50 min**
 
 ---
 
@@ -35,11 +35,13 @@ Práctica de Ingeniería de Datos enfocada en **preprocesamiento numérico**: de
    - ❌ Escalar todo y después *train/test split* (con leakage).  
    - ✅ Split primero y escalar **solo con train** (sin leakage).  
    - ✅ `sklearn.Pipeline` (anti-leakage automático).  
-5. **Validación.** Se montó un pipeline (**PowerTransformer + KNN**) y se evaluó con **CV=5** y baseline (`DummyRegressor`).
+5. **Validación.** Se hizo un pipeline (**PowerTransformer + KNN**) y se evaluó con **CV=5** y baseline (`DummyRegressor`).
 
 ---
 
 ## Evidencias
+
+- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/cuatro_cinco_prac_6.ipynb)
 
 ### 1) Exploración de escalas (ratios y outliers visuales)
 
@@ -49,7 +51,7 @@ Práctica de Ingeniería de Datos enfocada en **preprocesamiento numérico**: de
 - **Histogramas** para confirmar sesgo y valores extremos.
 
 **Qué muestran**  
-- Top escalas "notorias" o "fuertes": `PID` (ID, descartado como feature), `Lot Area`, `Misc Val`, `Total Bsmt SF`, `SalePrice`.  
+- Top escalas "notorias" o "fuertes": `Lot Area`, `Misc Val`, `Total Bsmt SF`, `SalePrice`.  
 - **Ratios altos** y colas largas → riesgo para algoritmos basados en distancia (KNN/SVM).
 
 ![Boxplots log1p](../assets/boxplots_log1p_ent5_prac6.png){ width="720" }  
@@ -91,7 +93,9 @@ Se midió el conteo de outliers con **IQR** y **Z-Score** en:
 - **Reducción fuerte de asimetría** y compresión de colas en las cuatro columnas.  
 - A diferencia de los scalers lineales, Yeo-Johnson **cambia la forma de la distribución**.
 
+Ejemplo de como afecta el PowerTransformer a la distribución (cercano a una normalización)
 ![Cambio en la distribución de una variable con PowerTransformer)](../assets/powertransformer_antesdespues_ent5_prac6.png){ width="720" }
+
 
 **Nota teórica**  
 Yeo-Johnson aplica una transformación de potencia **no lineal** que admite \(x \le 0\) y estima un \(\lambda\) por máxima verosimilitud. (Incluí en el notebook la ecuación completa en LaTeX en lugar de aquí para no sobrecargar).
@@ -140,7 +144,7 @@ Modelo **KNN (k=5)**, features: `Lot Area`, `Misc Val`, `Total Bsmt SF` (sin IDs
 | Baseline (Dummy median)   | −0.0443| 39,416  |
 
 **Qué muestra**  
-- El leakage alteró las métricas (ΔR² ≈ **+0.011**, ΔMAE ≈ **−472**). En este dataset el impacto fue **pequeño pero real**; en otros puede inflarlas mucho más.  
+- El leakage alteró las métricas (ΔR² ≈ **+0.011**, ΔMAE ≈ **−472**). En este dataset el impacto fue **chico pero real**; en otros puede inflarlas mucho más.  
 - **Pipeline** garantiza el orden correcto (**fit en train** → **transform en train/test**) y se integra con **cross-validation**.
 
 ---
@@ -178,9 +182,23 @@ El pipeline supera claramente al baseline → **aporta valor real**. El R² aún
 4. **Modelo sensible a escala** (p.ej., KNN/SVM) dentro de **`Pipeline`**.  
 5. **Cross-validation** y baseline para contrastar.
 
+
+## 🏆 MI CHECKLIST PERSONAL PARA PROYECTOS DE DATOS:
+
+- 1. ¿Las features están en escalas muy diferentes? -> Revisar min, max, ratio
+- 2. ¿Mi proceso necesita escalado?  -> Si, si uso KNN, regresión lineal.
+- 3. ¿Hay outliers evidentes? → Analizar con IQR/Z-score; considerar RobustScaler si no los elimino.
+- 4. ¿Datos muy sesgados? → Aplicar PowerTransformer o log transform.
+- 5. ¿Estoy usando Pipeline? → Siempre (anti-leakage automático).
+- 6. ¿Split ANTES de transformar? → Obligatorio para evitar leakage.
+- 7. ¿Cross-validation honesta? → Pipeline + CrossValidation para evaluación estable.
+- 8. ¿Resultados realistas vs optimistas? → Verificar leakage y baseline como referencia.
+- 9. ¿Documenté mi elección de transformadores? -> Sí, con justificación basada en evidencia.
+- 10. ¿Mi pipeline es reproducible? -> Sí, con random_state y pasos claros.
+ 
 ---
 
 ## Referencias
 - Dataset: **Ames Housing** (Kaggle).  
 - `scikit-learn` — `StandardScaler`, `MinMaxScaler`, `RobustScaler`, `PowerTransformer`, `Pipeline`, `cross_val_score`.  
-- Apuntes de la práctica 05 (outliers) y práctica 06 (escalado/leakage).
+- [link práctica 6](https://juanfkurucz.com/ucu-id/ut2/06-feature-scaling-pipeline/)
