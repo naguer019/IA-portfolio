@@ -157,3 +157,4 @@ La mayoría de filas acumula **5–7** NAs.
 - Dataset **Ames Housing** (Kaggle).  
 - scikit-learn docs: `SimpleImputer`, `ColumnTransformer`, `Pipeline`.  
 - Little & Rubin — MCAR/MAR/MNAR.
+- [link práctica 5](https://juanfkurucz.com/ucu-id/ut2/05-missing-data-detective/)
