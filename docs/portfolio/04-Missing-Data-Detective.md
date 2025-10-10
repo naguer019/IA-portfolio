@@ -45,6 +45,9 @@ Práctica centrada en **diagnóstico y tratamiento de datos faltantes** y **outl
 
 ## Evidencias
 
+- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/cuatro_prac_5.ipynb)
+
+
 ### Missing: Top-10 por columna y NA por fila
 **Cómo**: `isnull().sum()` y % sobre 2.930 filas.  
 **Qué muestra**: `Pool QC` (99.6%), `Misc Feature` (96.4%), `Alley` (93.2%), `Fence` (80.5%), `Mas Vnr Type` (60.6%), `Fireplace Qu` (48.5%), `Lot Frontage` (16.7%), `SalePrice` (11.9%), `Year Built` (8.7%).  
@@ -158,4 +161,3 @@ La mayoría de filas acumula **5–7** NAs.
 - scikit-learn docs: `SimpleImputer`, `ColumnTransformer`, `Pipeline`.  
 - Little & Rubin — MCAR/MAR/MNAR.
 - [link práctica 5](https://juanfkurucz.com/ucu-id/ut2/05-missing-data-detective/)
-- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/cuatro_prac_5.ipynb)
