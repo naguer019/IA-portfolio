@@ -158,3 +158,4 @@ La mayoría de filas acumula **5–7** NAs.
 - scikit-learn docs: `SimpleImputer`, `ColumnTransformer`, `Pipeline`.  
 - Little & Rubin — MCAR/MAR/MNAR.
 - [link práctica 5](https://juanfkurucz.com/ucu-id/ut2/05-missing-data-detective/)
+- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/cuatro_prac_5.ipynb)
