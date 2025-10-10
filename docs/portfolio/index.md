@@ -16,6 +16,6 @@ date: 2025-09-06
 
 ## UT2: Calidad & Ética
 
-- Cuarta entrada:
+- Cuarta entrada: [04-Missing-Data-Detective.md](04-Missing-Data-Detective.md)
 - Quinta entrada: [05-feature-scaling-y-anti-leakage-pipeline.md](05-feature-scaling-y-anti-leakage-pipeline.md)
 - Sexta entrada: 
