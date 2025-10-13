@@ -8,7 +8,7 @@ date: 2025-09-06
 
 ## UT1: EDA & Fuentes
   
-- Primer práctica: [01 - Análisis_exploratorio_del_dataset_iris](01-Analisis_exploratorio_del_dataset_iris.md)
+- Primer práctica: [01 - Análisis exploratorio del dataset iris](01-Analisis_exploratorio_del_dataset_iris.md)
 - Segunda práctica: [02 - Análisis netflix](02-analisis-netflix.md)
 - Tercera práctica: [03 - Análisis NYC taxis, multifuentes y joins](03-analisis-multifuentes-y-joins.md)
 
