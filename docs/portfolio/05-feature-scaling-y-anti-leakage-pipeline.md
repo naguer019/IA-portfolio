@@ -201,4 +201,4 @@ El pipeline supera claramente al baseline → **aporta valor real**. El R² aún
 ## Referencias
 - Dataset: **Ames Housing** (Kaggle).  
 - `scikit-learn` — `StandardScaler`, `MinMaxScaler`, `RobustScaler`, `PowerTransformer`, `Pipeline`, `cross_val_score`.  
-- [link práctica 6](https://juanfkurucz.com/ucu-id/ut2/06-feature-scaling-pipeline/)
+- [Link a la guía de la práctica](https://juanfkurucz.com/ucu-id/ut2/06-feature-scaling-pipeline/)
