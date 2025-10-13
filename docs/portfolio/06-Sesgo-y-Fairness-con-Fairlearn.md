@@ -3,12 +3,12 @@ title: "06 - Sesgo y Fairness con Fairlearn"
 date: 2025-10-12
 ---
 
-# ⚖️ Práctica 7 — Sesgo y Fairness con Fairlearn
+# ⚖️ Sesgo y Fairness con Fairlearn
 
 ## Contexto
 
 En esta práctica se exploraron conceptos de **sesgo algorítmico**, **equidad** y **responsabilidad ética** en el desarrollo de modelos de Machine Learning.  
-Se trabajó con dos datasets emblemáticos —**Boston Housing** (sesgo racial histórico) y **Titanic** (sesgo de género y clase)— para **detectar, cuantificar y mitigar** distintos tipos de sesgo usando la librería **Fairlearn**.  
+Se trabajó con dos datasets ya conocidos —**Boston Housing** (sesgo racial histórico) y **Titanic** (sesgo de género y clase)— para **detectar, cuantificar y mitigar** distintos tipos de sesgo usando la librería **Fairlearn**.  
 El objetivo fue comprender no solo el aspecto técnico del fairness, sino también su dimensión ética y social en contextos reales.
 
 ---
@@ -174,17 +174,11 @@ Esto representa un **buen compromiso (trade-off)** entre **precisión y justicia
 
 ---
 
-## Regla de oro personal
-
-> “Si hay duda, usa **Fairlearn** con métricas de equidad, valida con **cross-validation**, y documenta siempre tus decisiones éticas.”
-
----
-
 ## Referencias
 
 - [Fairlearn Documentation](https://fairlearn.org/)  
 - [Scikit-learn Ethics Statement](https://scikit-learn.org/stable/whats_new/v0.24.html#ethics)  
 - Dataset: *Boston Housing* (CMU) y *Titanic* (Seaborn)  
-- [Link a la práctica 7 original](https://juanfkurucz.com/ucu-id/ut2/07-sesgo-y-fairness/)
+- [Link a la guía de la práctica](https://juanfkurucz.com/ucu-id/ut2/07-sesgo-y-fairness/)
 
 ---
