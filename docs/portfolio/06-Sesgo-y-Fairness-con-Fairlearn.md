@@ -44,6 +44,8 @@ Se analizaron dos casos principales:
 
 ## Evidencias
 
+- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/siete.ipynb)
+
 ### 🏠 Caso 1: Boston Housing – Detección de Sesgo Racial
 
 **Cómo se hizo:**  
