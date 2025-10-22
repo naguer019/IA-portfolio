@@ -51,6 +51,8 @@ El foco estuvo en **comparar rendimiento, dimensionalidad, tiempo de entrenamien
 
 ## Evidencias
 
+- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/nueve.ipynb)
+
 ### 1) Experimentos de encoding
 
 #### 1.1 Label Encoding
