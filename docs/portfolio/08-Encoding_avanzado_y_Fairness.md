@@ -45,7 +45,7 @@ El foco estuvo en **comparar rendimiento, dimensionalidad, tiempo de entrenamien
 - Media: `education`, `occupation`, `native-country` (42 países)  
 - One-Hot total → ~**94 columnas** (explosión ≈ 11.8×). Se limita a baja cardinalidad.
 
-![Barras de cardinalidad por variable categórica](../assets/ent8_prac9_figA1_barras_cardinalidad.png){ width="700" }
+![Barras de cardinalidad por variable categórica](../assets/ent8_prac9_figA1_barras_cardinalidad.png){ width="800" }
 
 ---
 
@@ -94,9 +94,10 @@ El foco estuvo en **comparar rendimiento, dimensionalidad, tiempo de entrenamien
 Top importancias (ejemplo típico):
 - `fnlwgt`, `age`, `education-num`, `capital-gain`, `hours-per-week`, y categorías de `marital-status`.
 
-![Barras horizontales de importancia](../assets/ent8_prac9_C1_barras_importancia.png){ width="700" }
+![Barras horizontales de importancia](../assets/ent8_prac9_C1_barras_importancia.png){ width="800" }
 
-![Barras de cardinalidad por variable categórica y método](../assets/ent8_prac9_C1_barras_importancia_por_metodos.png){ width="700" }
+
+![Barras de cardinalidad por variable categórica y método](../assets/ent8_prac9_C1_barras_importancia_por_metodos.png){ width="800" }
 
 **Lecturas clave**  
 - ~**76%** de la importancia total proviene de **numéricas**; **24%** de **categóricas**.  
@@ -114,9 +115,9 @@ Top importancias (ejemplo típico):
 **Mantenibilidad/Producción**:  
   - **Pipeline con `ColumnTransformer`**: separa ramas por tipo, evita fugas, serializa transformadores y es **auditable**.
 
-![AUC/Accuracy vs smoothing en Target](../assets/ent8_prac9_D1_AUC_ACCURACY_etc.png){ width="700" }
+![AUC/Accuracy vs smoothing en Target](../assets/ent8_prac9_D1_AUC_ACCURACY_etc.png){ width="800" }
 
-![columnas creadas por Binary vs One-Hot en la misma variable](../assets/ent8_prac9_C1_barras_verticales_importancia_promedio_por_feature.png){ width="700" }
+![columnas creadas por Binary vs One-Hot en la misma variable](../assets/ent8_prac9_C1_barras_verticales_importancia_promedio_por_feature.png){ width="800" }
 
 ---
 
