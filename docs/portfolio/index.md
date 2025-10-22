@@ -20,6 +20,6 @@ date: 2025-09-06
 
 ## UT3: Feature Engineering
 
-- Séptima práctica:
+- Séptima práctica: [07 - Feature Engineering y Creación de Variables Derivadas](07-Feature_Engineering_y_Creación_de_Variables_Derivadas.md)
 - Octava práctica: [08 - Encoding avanzado y Fairness](08-Encoding_avanzado_y_Fairness.md)
 - Novena práctica:
