@@ -72,13 +72,15 @@ El foco estuvo en **comparar rendimiento, dimensionalidad, tiempo de entrenamien
 - **Resultados**: Accuracy 0.8485, AUC 0.8996, F1 0.6646, **30 features**.
 
 
-**Tabla comparativa (a modo de resumen):**
-| Encoding                    | Accuracy | AUC    | F1     | Time (s) | Features |
-|----------------------------|---------:|:------:|:------:|---------:|---------:|
-| **Label Encoding**         | **0.8632** | **0.9101** | **0.6931** | 0.45     | 14       |
-| One-Hot (low card)         | 0.8483   | 0.8995 | 0.6633 | 0.43     | 30       |
-| Target (high card)         | 0.8021   | 0.8272 | 0.5538 | **0.43** | **6**    |
-| Pipeline (mixto)           | 0.8485   | 0.8996 | 0.6646 | 0.44     | 30       |
+**Tabla comparativa (resumen)**
+
+| Encoding                 | Accuracy |   AUC  |   F1   | Time (s) | Features |
+|-------------------------|---------:|------:|------:|---------:|---------:|
+| **Label Encoding**      |  0.8632  | 0.9101 | 0.6931 |   0.45   |    14    |
+| One-Hot (low card)      |  0.8483  | 0.8995 | 0.6633 |   0.43   |    30    |
+| Target (high card)      |  0.8021  | 0.8272 | 0.5538 | **0.43** | **6**    |
+| Pipeline (mixto)        |  0.8485  | 0.8996 | 0.6646 |   0.44   |    30    |
+
 
 **Conclusiones rápidas**  
 - **Rendimiento puro**: gana **Label** (mejor Accuracy/AUC/F1).  
