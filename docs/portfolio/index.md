@@ -23,3 +23,4 @@ date: 2025-09-06
 - Séptima práctica: [07 - Feature Engineering y Creación de Variables Derivadas](07-Feature_Engineering_y_Creación_de_Variables_Derivadas.md)
 - Octava práctica: [08 - Encoding avanzado y Fairness](08-Encoding_avanzado_y_Fairness.md)
 - Novena práctica:
+- Décima práctica: [10 - Temporal Feature Engineering y Validación Avanzada](10-Temporal_Feature_Engineering_y_Validación_Avanzada.md)
