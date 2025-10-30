@@ -66,7 +66,6 @@ Las ventanas más amplias (90d) captaron mejor la tendencia de recompra.
 El promedio de órdenes en 90 días fue **3.69**, mientras que en 7 días fue **0.41**.
 
 ![Distribución de órdenes por ventana temporal](../assets/ent10_fig1_timewindow_features.png){ width="800" }
-_Fuente: de0826bf-28fe-4ec6-91b2-dae6fa3c1e93.png_
 
 ---
 
@@ -83,7 +82,6 @@ Ratios bajos (<0.5) reflejan usuarios fieles o repetitivos.
 El promedio fue **0.85**, indicando una base moderadamente diversa.
 
 ![Relación entre total de ítems y productos únicos](../assets/ent10_fig2_product_diversity.png){ width="800" }
-_Fuente: e9291272-40d1-4769-9c85-e997ff46bc08.png_
 
 ---
 
@@ -98,7 +96,6 @@ Se añadieron variables de calendario:
 Captura periodicidades sin rupturas (23h “cerca” de 0h, domingo “cerca” de lunes).
 
 ![Encoding cíclico de hora y día de la semana](../assets/ent10_fig3_calendar_encoding.png){ width="800" }
-_Fuente: f380f062-bc97-4ad6-95b6-151699120e19.png_
 
 ---
 
@@ -112,7 +109,6 @@ Estas se asociaron a cada orden mediante `month_period` y **forward fill** (`ffi
 - Se mantienen útiles para análisis de sensibilidad del gasto.
 
 ![Evolución de GDP y número de órdenes mensuales](../assets/ent10_fig4_economic_indicators.png){ width="800" }
-_Fuente: 4b5201d7-4a3a-4027-a4b7-18ba144afdfe.png_
 
 ---
 
@@ -150,7 +146,6 @@ Se compararon dos modelos con **Random Forest**:
 **Conclusión:** Las features temporales mejoraron notablemente el rendimiento.
 
 ![Comparación entre modelo base y completo](../assets/ent10_fig5_model_comparison.png){ width="800" }
-_Fuente: 48b1a39d-0571-44d9-b196-d66e1b09e613.png_
 
 ---
 
@@ -175,7 +170,6 @@ El análisis con `RandomForestClassifier` mostró las siguientes categorías má
 5. `days_since_prior_lag_3`
 
 ![Feature importance por variable y categoría](../assets/ent10_fig6_feature_importance.png){ width="800" }
-_Fuente: 617cc8dc-4e5a-4e8a-be4d-a1879dcda48e.png_
 
 ---
 
@@ -204,6 +198,7 @@ Permite separar los folds temporalmente con bloques contiguos, evitando solapami
 | 3 | 5,796 | 1,965 | 0.7070 |
 
 **Promedio AUC (Blocked): 0.7655**
+
 ---
 
 #### 7.2 Walk-Forward Validation
@@ -219,6 +214,7 @@ Simula un flujo de producción con reentrenamiento periódico y evita fugas.
 | 3 | hasta 2011-11-02 | desde 2011-11-02 | 0.6644 |
 
 **Promedio AUC (Walk-Forward): 0.7276**
+
 ---
 
 #### 7.3 Purged K-Fold (con Embargo)
@@ -261,3 +257,4 @@ Evita que información del futuro inmediato contamine el entrenamiento.
 - Hudson & Thames — [Purged K-Fold](https://github.com/hudson-and-thames/mlfinlab)  
 - Pandas — [Window Functions](https://pandas.pydata.org/docs/user_guide/window.html)  
 - Statsmodels — [Seasonal Decompose](https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html)
+- [Link a la guía de la práctica](https://juanfkurucz.com/ucu-id/ut3/11-temporal-features-assignment/)
