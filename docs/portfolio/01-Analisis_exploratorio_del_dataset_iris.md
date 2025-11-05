@@ -37,8 +37,7 @@ En la primera práctica del curso trabajé con el dataset clásico de **flores I
    - **Pairplot** de seaborn mostrando cómo se distribuyen las tres especies en función de las variables morfológicas.
 
 ## Evidencias
-- [Notebook completo](../recursos_files/uno.ipynb)
-
+- [Notebook completo](https://github.com/naguer019/IA-portfolio/blob/main/docs/recursos_files/uno.ipynb)
 
 ## Reflexión
 Este primer trabajo me permitió familiarizarme con el entorno de análisis y con la lógica de los notebooks.  
