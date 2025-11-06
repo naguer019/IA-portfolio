@@ -23,3 +23,5 @@ mkdocs serve
 
 ## Despliegue
 Cada `push` a `main` ejecuta el build con `--strict` y publica en GitHub Pages.
+
+ignacio
