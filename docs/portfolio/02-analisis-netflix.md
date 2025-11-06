@@ -1,9 +1,9 @@
 ---
-title: "02-Análisis del catálogo de Netflix"
+title: "02 - 🍿 Explorando el universo de Netflix: análisis del catálogo global"
 date: 2025-08-21
 ---
 
-# Análisis del catálogo de Netflix
+# 🍿 Explorando el universo de Netflix: análisis del catálogo global
 
 ## Contexto
 Trabajo de análisis de datos para explorar la evolución del catálogo de Netflix y entender tendencias por tipo de contenido, mercados y géneros.
@@ -24,7 +24,8 @@ En mercados, EE. UU. e India concentran gran parte del catálogo; conviene diver
 En géneros, destacan dramas, comedias y películas internacionales; se recomienda reforzar géneros transversales y explorar nichos (anime, documentales, realities).
 
 ## Evidencias
-- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/analysis%20parte%203%20netflix%20ing%20datos.ipynb)
+
+- [Notebook completo](../recursos_files/analysis_parte_3_netflix_ing_datos.ipynb)
 
 ### Como se hicieron y que nos dicen las visualizaciones
 

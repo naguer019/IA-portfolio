@@ -1,9 +1,9 @@
 ---
-title: "07 - Feature Engineering y Creación de Variables Derivadas"
+title: "07 - Diseñando inteligencia en los datos: Feature Engineering en acción"
 date: 2025-10-22
 ---
 
-# 🧩 Feature Engineering y Creación de Variables Derivadas
+# 🧩 Diseñando inteligencia en los datos: Feature Engineering en acción
 
 ## Contexto
 En esta práctica trabajé con un **dataset sintético de viviendas** y posteriormente con el **dataset real Ames Housing**, con el objetivo de **crear, transformar y evaluar nuevas features** que mejoren la capacidad predictiva de los modelos.  
@@ -50,8 +50,7 @@ Se generó un dataset de **1000 viviendas**, con 10 variables base:
 
 ## Evidencias
 
-- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/ocho.ipynb)
-
+- [Notebook completo](../recursos_files/ocho.ipynb)
 
 ### 1️⃣ Creación de Features Derivadas
 
@@ -205,8 +204,7 @@ Se probaron las mismas técnicas con una muestra del dataset real **Ames Housing
 ## Referencias
 
 - [Documentación oficial de Scikit-learn](https://scikit-learn.org/stable/index.html)  
-- [Guía oficial de Pipelines](https://scikit-learn.org/stable/modules/compose.html#pipeline)  
-- [Link a la guía de la práctica](https://juanfkurucz.com/ucu-id/ut3/08-feature-engineering-assignment/#preguntas-para-reflexionar)
+- [Guía oficial de Pipelines](https://scikit-learn.org/stable/modules/compose.html#pipeline)
 
 ---
 

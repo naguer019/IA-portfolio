@@ -1,9 +1,9 @@
 ---
-title: "05 Feature scaling y anti leakage pipeline (Ames Housing)"
+title: "05 - ⚙️ Escalado inteligente y pipelines anti-leakage en Ames Housing"
 date: 2025-09-21
 ---
 
-# Escalado, Outliers y Pipelines (Ames Housing)
+# ⚙️ Escalado inteligente y pipelines anti-leakage en Ames Housing
 
 ## Contexto
 Práctica de Ingeniería de Datos enfocada en **preprocesamiento numérico**: detección de outliers, efecto del **escalado de features**, elección de transformadores y **prevención de data leakage** al construir pipelines reproducibles. Se trabajó con el dataset **Ames Housing** (2930 filas, 82 columnas). Se introdujeron faltantes sintéticos para ejercitar imputación y análisis de sesgo.
@@ -41,7 +41,7 @@ Práctica de Ingeniería de Datos enfocada en **preprocesamiento numérico**: de
 
 ## Evidencias
 
-- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/cuatro_cinco_prac_6.ipynb)
+- [Notebook completo](../recursos_files/cuatro_cinco_prac_6.ipynb)
 
 ### 1) Exploración de escalas (ratios y outliers visuales)
 
@@ -200,5 +200,4 @@ El pipeline supera claramente al baseline → **aporta valor real**. El R² aún
 
 ## Referencias
 - Dataset: **Ames Housing** (Kaggle).  
-- `scikit-learn` — `StandardScaler`, `MinMaxScaler`, `RobustScaler`, `PowerTransformer`, `Pipeline`, `cross_val_score`.  
-- [Link a la guía de la práctica](https://juanfkurucz.com/ucu-id/ut2/06-feature-scaling-pipeline/)
+- `scikit-learn` — `StandardScaler`, `MinMaxScaler`, `RobustScaler`, `PowerTransformer`, `Pipeline`, `cross_val_score`. 

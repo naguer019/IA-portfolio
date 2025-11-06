@@ -1,9 +1,9 @@
 ---
-title: "10 - Temporal Feature Engineering y Validación Avanzada"
+title: "10 - Cómo predecir la recompra con tiempo: ingeniería temporal y validación sin fugas"
 date: 2025-10-30
 ---
 
-# 🕒 Temporal Feature Engineering y Validación Avanzada
+# 🕒 Cómo predecir la recompra con tiempo: ingeniería temporal y validación sin fugas
 
 ## Contexto
 En esta práctica se aplicaron técnicas avanzadas de **ingeniería de features temporales** sobre el dataset **Online Retail (Kaggle)** con el objetivo de predecir la **recompra de un usuario** (`will_purchase_again`).  
@@ -251,10 +251,13 @@ Evita que información del futuro inmediato contamine el entrenamiento.
 
 ---
 
+## Evidencias  
+
+- [Notebook completo](../recursos_files/Practica_11.ipynb)
+
 ## Referencias
 - Scikit-learn — [Time Series Split](https://scikit-learn.org/stable/modules/cross_validation.html#time-series-split)  
 - Machine Learning Mastery — [Walk-Forward Validation](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)  
 - Hudson & Thames — [Purged K-Fold](https://github.com/hudson-and-thames/mlfinlab)  
 - Pandas — [Window Functions](https://pandas.pydata.org/docs/user_guide/window.html)  
 - Statsmodels — [Seasonal Decompose](https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html)
-- [Link a la guía de la práctica](https://juanfkurucz.com/ucu-id/ut3/11-temporal-features-assignment/)

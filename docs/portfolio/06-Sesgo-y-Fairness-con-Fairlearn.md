@@ -1,9 +1,9 @@
 ---
-title: "06 - Sesgo y Fairness con Fairlearn"
+title: "06 - Modelos justos: detectando y mitigando sesgo con Fairlearn"
 date: 2025-10-12
 ---
 
-# ⚖️ Sesgo y Fairness con Fairlearn
+# ⚖️ Modelos justos: detectando y mitigando sesgo con Fairlearn
 
 ## Contexto
 
@@ -44,7 +44,8 @@ Se analizaron dos casos principales:
 
 ## Evidencias
 
-- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/siete.ipynb)
+- [Notebook completo](../recursos_files/siete.ipynb)
+
 
 ### 🏠 Caso 1: Boston Housing – Detección de Sesgo Racial
 
@@ -178,7 +179,6 @@ Esto representa un **buen compromiso (trade-off)** entre **precisión y justicia
 
 - [Fairlearn Documentation](https://fairlearn.org/)  
 - [Scikit-learn Ethics Statement](https://scikit-learn.org/stable/whats_new/v0.24.html#ethics)  
-- Dataset: *Boston Housing* (CMU) y *Titanic* (Seaborn)  
-- [Link a la guía de la práctica](https://juanfkurucz.com/ucu-id/ut2/07-sesgo-y-fairness/)
+- Dataset: *Boston Housing* (CMU) y *Titanic* (Seaborn)
 
 ---

@@ -1,9 +1,9 @@
 ---
-title: "04-Missing Data Detective (Ames Housing)"
+title: "04 - 🕵️‍♂️ Detectives de datos: hallando y reparando valores perdidos en Ames Housing"
 date: 2025-10-08
 ---
 
-# Missing Data Detective — Ames Housing
+# 🕵️‍♂️ Detectives de datos: hallando y reparando valores perdidos en Ames Housing
 
 ## Contexto
 Práctica centrada en **diagnóstico y tratamiento de datos faltantes** y **outliers** sobre el dataset **Ames Housing** (2.930 filas, 82 columnas). Se simularon faltantes MCAR/MAR/MNAR para ejercitar decisiones de imputación y se armó un **pipeline anti-leakage** reproducible.
@@ -45,8 +45,7 @@ Práctica centrada en **diagnóstico y tratamiento de datos faltantes** y **outl
 
 ## Evidencias
 
-- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/cuatro_prac_5.ipynb)
-
+- [Notebook completo](../recursos_files/cuatro_prac_5.ipynb)
 
 ### Missing: Top-10 por columna y NA por fila
 **Cómo**: `isnull().sum()` y % sobre 2.930 filas.  
@@ -160,4 +159,3 @@ La mayoría de filas acumula **5–7** NAs.
 - Dataset **Ames Housing** (Kaggle).  
 - scikit-learn docs: `SimpleImputer`, `ColumnTransformer`, `Pipeline`.  
 - Little & Rubin — MCAR/MAR/MNAR.
-- [Link a la guía de la práctica](https://juanfkurucz.com/ucu-id/ut2/05-missing-data-detective/)

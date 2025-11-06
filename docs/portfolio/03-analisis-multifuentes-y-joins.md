@@ -1,14 +1,12 @@
 ---
-title: "03 — Análisis NYC Taxis (EDA multifuentes y Joins)"
+title: "03 - 🚖 Conectando la ciudad: análisis multifuente de taxis en Nueva York"
 date: 2025-08-27
 ---
 
-# Analisis NYC Taxis (EDA multifuentes y Joins)
+# 🚖 Conectando la ciudad: análisis multifuente de taxis en Nueva York
 
 ## Contexto
 En esta práctica trabajamos con datos de taxis de Nueva York y fuentes adicionales, con el objetivo de realizar un análisis exploratorio integrando múltiples datasets. La tarea principal fue practicar operaciones de **join** para combinar información complementaria y generar nuevos insights.
-
-La consigna completa se encuentra en: [EDA multifuentes y joins — UT1](https://juanfkurucz.com/ucu-id/ut1/04-eda-multifuentes-joins/).
 
 ## Objetivos
 - Aplicar operaciones de **merge/join** entre diferentes fuentes de datos.  
@@ -32,7 +30,8 @@ La consigna completa se encuentra en: [EDA multifuentes y joins — UT1](https:/
 5. **Resultados**: se obtuvieron tablas consolidadas que permiten tener una visión más completa de los viajes, con datos combinados de distintas fuentes.  
 
 ## Evidencias
-- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/Practica_4_nyc_taxis.ipynb)
+
+- [Notebook completo](../recursos_files/Practica_4_nyc_taxis.ipynb)
 
 ### Como llegamos a los resultados y un análisis correspondiente de estos
 
@@ -362,6 +361,5 @@ Un próximo paso sería profundizar en métricas descriptivas y aplicar visualiz
 Aunque no pudimos realizar la parte práctica del bonus, considero que fue interesante ya entrar en prefect y las herramientas que nos ofrece.
 
 ## Referencias
-- Consigna: [EDA multifuentes y joins — UT1](https://juanfkurucz.com/ucu-id/ut1/04-eda-multifuentes-joins/)  
 - Dataset: NYC Taxis  
 - Documentación de pandas (merge, join, concat)

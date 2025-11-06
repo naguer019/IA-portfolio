@@ -1,9 +1,9 @@
 ---
-title: "08 - Encoding avanzado y Fairness"
+title: "08 - Más que One-Hot: encoding inteligente y fairness en Adult Income"
 date: 2025-10-21
 ---
 
-# 🧠 Encoding avanzado y Fairness
+# 🧠 Más que One-Hot: encoding inteligente y fairness en Adult Income
 
 ## Contexto
 En esta práctica trabajé con el dataset **Adult Income (UCI)** para evaluar **métodos de encoding de variables categóricas** (Label, One-Hot, Target y un **pipeline mixto** con `ColumnTransformer`). Además, incorporé una sección de **fairness** para juntar encoding, rendimiento y equidad.  
@@ -51,7 +51,7 @@ El foco estuvo en **comparar rendimiento, dimensionalidad, tiempo de entrenamien
 
 ## Evidencias
 
-- [Notebook completo en nbviewer](https://nbviewer.org/github/naguer019/IA-portfolio/blob/main/docs/recursos_files/nueve.ipynb)
+- [Notebook completo](../recursos_files/nueve.ipynb)
 
 ### 1) Experimentos de encoding
 
@@ -196,7 +196,6 @@ Top importancias (ejemplo típico):
 - [Documentación de Scikit-learn](https://scikit-learn.org/stable/) 
 - [Documentación de `ColumnTransformer` (sklearn.compose.ColumnTransformer)](https://scikit-learn.org/stable/modules/generated/sklearn.compose.ColumnTransformer.html)
 - [Documentación de Category Encoders](https://contrib.scikit-learn.org/category_encoders/)
-- [Documentación de Fairlearn](https://fairlearn.org/) 
-- [Link a la guía de la práctica]([https://juanfkurucz.com/ucu-id/ut2/07-sesgo-y-fairness/](https://juanfkurucz.com/ucu-id/ut3/09-encoding-avanzado-assignment/#preguntas-conceptuales-clave))
+- [Documentación de Fairlearn](https://fairlearn.org/)
 
 ---
