@@ -31,7 +31,7 @@ En esta práctica trabajamos con datos de taxis de Nueva York y fuentes adiciona
 
 ## Evidencias
 
-- [Notebook completo](../recursos_files/Practica_4_nyc_taxis.ipynb)
+- [Notebook completo](../recursos_files/tres_taxis_m.ipynb)
 
 ### Como llegamos a los resultados y un análisis correspondiente de estos
 
