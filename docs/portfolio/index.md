@@ -25,3 +25,9 @@ date: 2025-09-06
 - Novena práctica:  [09 - 📉 Reducción inteligente de dimensiones: PCA y Feature Selection en Ames Housing](09-reduccion_inteligente_de_dimensiones.md)
     - Trabajo domiciliario: [📉 Comparación de Umbrales de Varianza en PCA](09-5-trabajo_domiciliario_1.md)
 - Décima práctica: [10 - 🕒 Cómo predecir la recompra con tiempo: ingeniería temporal y validación sin fugas](10-Temporal_Feature_Engineering_y_Validación_Avanzada.md)
+
+## UT4: Datos especiales
+
+- Décimo primer práctica: [11 - 🏙️ Radiografía geoespacial de CABA: población, servicios y movilidad](11-geoespacial.md)
+    - Trabajo extra: [🗺️💨 Mapas más rápidos: técnicas para acelerar cargas geoespaciales](11-5-io_performance_extra.md)
+- Décimo segunda práctica:
