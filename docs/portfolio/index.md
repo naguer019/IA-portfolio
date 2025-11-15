@@ -23,11 +23,12 @@ date: 2025-09-06
 - Séptima práctica: [07 - 🧩 Diseñando inteligencia en los datos: Feature Engineering en acción](07-Feature_Engineering_y_Creación_de_Variables_Derivadas.md)
 - Octava práctica: [08 - 🧠 Más que One-Hot: encoding inteligente y fairness en Adult Income](08-Encoding_avanzado_y_Fairness.md)
 - Novena práctica:  [09 - 📉 Reducción inteligente de dimensiones: PCA y Feature Selection en Ames Housing](09-reduccion_inteligente_de_dimensiones.md)
-    - Trabajo domiciliario: [📉 Comparación de Umbrales de Varianza en PCA](09-5-trabajo_domiciliario_1.md)
+    - Trabajo extra: [📉 Comparación de Umbrales de Varianza en PCA](09-5-trabajo_domiciliario_1.md)
 - Décima práctica: [10 - 🕒 Cómo predecir la recompra con tiempo: ingeniería temporal y validación sin fugas](10-Temporal_Feature_Engineering_y_Validación_Avanzada.md)
 
 ## UT4: Datos especiales
 
 - Décimo primer práctica: [11 - 🏙️ Radiografía geoespacial de CABA: población, servicios y movilidad](11-geoespacial.md)
     - Trabajo extra: [🗺️💨 Mapas más rápidos: técnicas para acelerar cargas geoespaciales](11-5-io_performance_extra.md)
-- Décimo segunda práctica:
+- Décimo segunda práctica: [12 - 🛰️ De píxeles a patrones: realce, bordes y features robustas en imágenes](12-preprocesamiento_imagenes.md)
+    - Trabajo extra: [📊 CLAHE bajo el microscopio: el delicado equilibrio entre detalles y ruido](12-5-extra_curva_sensibilidad_ruido.md)
