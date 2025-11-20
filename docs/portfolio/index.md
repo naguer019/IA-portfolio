@@ -32,3 +32,5 @@ date: 2025-09-06
     - Trabajo extra: [🗺️💨 Mapas más rápidos: técnicas para acelerar cargas geoespaciales](11-5-io_performance_extra.md)
 - Décimo segunda práctica: [12 - 🛰️ De píxeles a patrones: realce, bordes y features robustas en imágenes](12-preprocesamiento_imagenes.md)
     - Trabajo extra: [📊 CLAHE bajo el microscopio: el delicado equilibrio entre detalles y ruido](12-5-extra_curva_sensibilidad_ruido.md)
+- Décimo tercera práctica: [13 - 🔊 Escuchando la ciudad: preprocesamiento de audio y MFCC en UrbanSound8K](13-audio_como_dato.md)
+    - Trabajo extra: [⚙️ Noise Lab: Experimentos Avanzados con SNR, Filtros y Métricas de Calidad](13-5-ruido_limpieza_qa.md)
