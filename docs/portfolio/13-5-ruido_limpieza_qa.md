@@ -6,7 +6,7 @@ date: 2025-11-19
 # ⚙️ Noise Lab: Experimentos Avanzados con SNR, Filtros y Métricas de Calidad
 
 
-## 1 — Sensibilidad de features frente al ruido (SNR)
+## *1 — Sensibilidad de features frente al ruido (SNR)*
 
 Se generaron versiones ruidosas del audio con SNR = 0, 5, 10 y 20 dB.  
 Luego se midieron:  
@@ -43,7 +43,7 @@ Tabla generada:
 
 ---
 
-## 2 — Benchmark de pipelines de limpieza
+## *2 — Benchmark de pipelines de limpieza*
 
 Se compararon tres pipelines:
 
@@ -74,7 +74,7 @@ Tabla:
 
 ---
 
-## 3 — Dashboard de Control de Calidad (QA)
+## *3 — Dashboard de Control de Calidad (QA)*
 
 Se procesaron 200 audios y se midieron:
 
@@ -120,9 +120,9 @@ Resultados:
 
 ## Resumen Final
 
-- **F.1:** MFCC 1 std es el mejor indicador de ruido.  
-- **F.2:** Pipeline óptimo → **highpass + trim**.  
-- **F.3:** El dashboard QA muestra buena consistencia en duración, pero energía (RMS) muy variable.
+- **1:** MFCC 1 std es el mejor indicador de ruido.  
+- **2:** Pipeline óptimo → **highpass + trim**.  
+- **3:** El dashboard QA muestra buena consistencia en duración, pero energía (RMS) muy variable.
 
 ---
 
