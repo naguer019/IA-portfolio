@@ -34,3 +34,11 @@ date: 2025-09-06
     - Trabajo extra: [📊 CLAHE bajo el microscopio: el delicado equilibrio entre detalles y ruido](12-5-extra_curva_sensibilidad_ruido.md)
 - Décimo tercera práctica: [13 - 🔊 Escuchando la ciudad: preprocesamiento de audio y MFCC en UrbanSound8K](13-audio_como_dato.md)
     - Trabajo extra: [⚙️ Noise Lab: Experimentos Avanzados con SNR, Filtros y Métricas de Calidad](13-5-ruido_limpieza_qa.md)
+
+## UT5: Pipelines ETL
+
+- Décimo cuarta práctica: [14 - 🔁 Del Código al Flujo: Cómo Prefect Reinventa el ETL Moderno](14-(UT5_prac15_deport).md)
+
+- Décimo quinta práctica: [15 - 🔓☁️ Google Cloud Desbloqueado: Mi Primera Experiencia con Hands-on Labs](15-google_cloud_skills.md)
+
+- Décimo sexta práctica: [16 - 📊⚙️ Preparación y Enriquecimiento de Datos en Cloud Dataprep](16-data_transformation_pipeline.md)
